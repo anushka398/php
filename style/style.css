@@ -1,0 +1,42 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Style for file input */
+input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the message div */
+#message {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Style for the image preview */
+#preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
